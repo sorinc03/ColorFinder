@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5195010172307FC008360F3 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B519500F172307FC008360F3 /* MyView.m */; };
+		B519501217230F54008360F3 /* 2252852.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B519501117230F54008360F3 /* 2252852.jpg */; };
+		B519501417231033008360F3 /* tp02aw600.gif in Resources */ = {isa = PBXBuildFile; fileRef = B519501317231033008360F3 /* tp02aw600.gif */; };
 		B550B15B170785A300EA484D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B550B15A170785A300EA484D /* UIKit.framework */; };
 		B550B15D170785A300EA484D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B550B15C170785A300EA484D /* Foundation.framework */; };
 		B550B15F170785A300EA484D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B550B15E170785A300EA484D /* CoreGraphics.framework */; };
@@ -23,6 +26,8 @@
 		B550B181170785A300EA484D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B550B15C170785A300EA484D /* Foundation.framework */; };
 		B550B189170785A400EA484D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B550B187170785A400EA484D /* InfoPlist.strings */; };
 		B550B18C170785A400EA484D /* ColorCodeGenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B550B18B170785A400EA484D /* ColorCodeGenTests.m */; };
+		B550B19617078D5D00EA484D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B550B19517078D5D00EA484D /* QuartzCore.framework */; };
+		B57F2EAD1726F72A0038153F /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B57F2EAC1726F72A0038153F /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B519500E172307FC008360F3 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		B519500F172307FC008360F3 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		B519501117230F54008360F3 /* 2252852.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2252852.jpg; sourceTree = "<group>"; };
+		B519501317231033008360F3 /* tp02aw600.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tp02aw600.gif; sourceTree = "<group>"; };
 		B550B157170785A300EA484D /* ColorCodeGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCodeGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B550B15A170785A300EA484D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B550B15C170785A300EA484D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +67,8 @@
 		B550B188170785A400EA484D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B550B18A170785A400EA484D /* ColorCodeGenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorCodeGenTests.h; sourceTree = "<group>"; };
 		B550B18B170785A400EA484D /* ColorCodeGenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorCodeGenTests.m; sourceTree = "<group>"; };
+		B550B19517078D5D00EA484D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B57F2EAC1726F72A0038153F /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B550B19617078D5D00EA484D /* QuartzCore.framework in Frameworks */,
 				B550B15B170785A300EA484D /* UIKit.framework in Frameworks */,
 				B550B15D170785A300EA484D /* Foundation.framework in Frameworks */,
 				B550B15F170785A300EA484D /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +118,7 @@
 		B550B159170785A300EA484D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B550B19517078D5D00EA484D /* QuartzCore.framework */,
 				B550B15A170785A300EA484D /* UIKit.framework */,
 				B550B15C170785A300EA484D /* Foundation.framework */,
 				B550B15E170785A300EA484D /* CoreGraphics.framework */,
@@ -117,11 +130,16 @@
 		B550B160170785A300EA484D /* ColorCodeGen */ = {
 			isa = PBXGroup;
 			children = (
+				B57F2EAC1726F72A0038153F /* images.jpeg */,
+				B519501317231033008360F3 /* tp02aw600.gif */,
+				B519501117230F54008360F3 /* 2252852.jpg */,
 				B550B169170785A300EA484D /* AppDelegate.h */,
 				B550B16A170785A300EA484D /* AppDelegate.m */,
 				B550B172170785A300EA484D /* MainStoryboard.storyboard */,
 				B550B175170785A300EA484D /* ViewController.h */,
 				B550B176170785A300EA484D /* ViewController.m */,
+				B519500E172307FC008360F3 /* MyView.h */,
+				B519500F172307FC008360F3 /* MyView.m */,
 				B550B161170785A300EA484D /* Supporting Files */,
 			);
 			path = ColorCodeGen;
@@ -236,6 +254,9 @@
 				B550B16F170785A300EA484D /* Default@2x.png in Resources */,
 				B550B171170785A300EA484D /* Default-568h@2x.png in Resources */,
 				B550B174170785A300EA484D /* MainStoryboard.storyboard in Resources */,
+				B519501217230F54008360F3 /* 2252852.jpg in Resources */,
+				B519501417231033008360F3 /* tp02aw600.gif in Resources */,
+				B57F2EAD1726F72A0038153F /* images.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +294,7 @@
 				B550B167170785A300EA484D /* main.m in Sources */,
 				B550B16B170785A300EA484D /* AppDelegate.m in Sources */,
 				B550B177170785A300EA484D /* ViewController.m in Sources */,
+				B5195010172307FC008360F3 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +475,7 @@
 				B550B191170785A400EA484D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B550B192170785A400EA484D /* Build configuration list for PBXNativeTarget "ColorCodeGenTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +484,7 @@
 				B550B194170785A400EA484D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
